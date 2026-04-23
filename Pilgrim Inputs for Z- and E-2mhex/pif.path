@@ -1,0 +1,137 @@
+
+start_mep ts_a     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    4-19  ++ 
+  scterr   0.500
+  cubic    yes
+  lowfq    1 13 ++
+  lowfq    2 34 ++
+  lowfq    3 74 ++
+end_mep
+
+start_mep ts_a_tr     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    4-19  ++ 
+  scterr   0.500
+  cubic    yes
+end_mep
+
+start_mep ts_b     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    5-18  ++ 
+  scterr   0.500
+  cubic    yes
+end_mep
+
+start_mep ts_b_tr     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    5-18  ++ 
+  scterr   0.500
+  cubic    yes
+  lowfq    1 50 --
+  lowfq    2 67 --
+  lowfq    3 84 --
+  lowfq    1 29 ++
+end_mep
+
+start_mep ts_d     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    14-22  -- 
+  scterr   0.500
+  cubic    yes
+  lowfq    1 20 --
+  lowfq    2 34 --
+  lowfq    3 84 --
+  lowfq    1 37 ++
+  lowfq    2 86 ++
+  lowfq    3 88 ++
+end_mep
+
+start_mep ts_d_tr     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    14-22  -- 
+  scterr   0.500
+  cubic    yes
+end_mep
+
+start_mep ts_ep     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    8-10  ++ 
+  scterr   0.500
+  cubic    yes
+end_mep
+
+start_mep ts_ep_tr     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    8-10  ++ 
+  scterr   0.500
+  cubic    yes
+end_mep
+
+start_mep ts_g     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    16-22  -- 
+  scterr   0.500
+  cubic    yes
+  lowfq    1 17 --
+  lowfq    2 41 --
+  lowfq    3 82 --
+end_mep
+
+start_mep ts_g_tr     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    16-22  -- 
+  scterr   0.500
+  cubic    yes
+end_mep
+
+start_mep ts_m     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    11-22  -- 
+  scterr   0.500
+  cubic    yes
+end_mep
+
+start_mep ts_m_tr     
+  sbw      -2.0000  
+  sfw      +2.0000  
+  ds       0.00500   
+  hsteps   10     
+  fwdir    11-22  -- 
+  scterr   0.500
+  cubic    yes
+end_mep
+

@@ -1,0 +1,1302 @@
+#======================================#
+# INPUT FILE TEMPLATES FOR: GAUSSIAN   #
+#======================================#
+
+#-------------------------#
+# MEP POINT CALCULATIONS  #
+#-------------------------#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_a gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)        
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_a_tr gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)       
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_b gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)        
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_b_tr gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)        
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_d gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)        
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_d_tr gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)        
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_ep gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)      
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_ep_tr gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)       
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_g gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)      
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_g_tr gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)       
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_m gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)        
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_m_tr gaussian
+%nproc=8   
+%mem=8GB   
+%chk=[Pilgrim_name].chk 
+#p mpwb95/6-31+G(d,p) IOp(3/76=0560004400) int(grid=ultrafine)        
+scf=verytight
+NoSymm       
+[Pilgrim_gradientcalc_start]
+force
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+freq=noraman
+[Pilgrim_hessiancalc_end]
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#-------------------------#
+# HIGH-LEVEL CALCULATIONS #
+#-------------------------#
+
+#- - - - - - - - - - - - - -#
+start_highlevel 2d gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 1        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel 2d_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 1        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel h gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel h2 gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 1        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_a gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_a_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_b gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_b_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_d gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_d_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_ep gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_ep_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_g gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_g_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_m gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_m_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_a gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_a_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_b gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_b_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_d gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_d_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_ep gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_ep_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_g gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_g_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_m gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_m_tr gaussian
+%nproc=1   
+%mem=1GB   
+%chk=[Pilgrim_name].chk 
+#p hf 6-31G        
+scf=verytight
+NoSymm       
+
+Input file for MEP calculation
+
+0 2        
+[Pilgrim_geometry]           
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+
+#======================================#
+# INPUT FILE TEMPLATES FOR: ORCA       #
+#======================================#
+
+#-------------------------#
+# MEP POINT CALCULATIONS  #
+#-------------------------#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_a orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_a_tr orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_b orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_b_tr orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_d orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_d_tr orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_ep orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_ep_tr orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_g orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_g_tr orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_m orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_meppoint ts_m_tr orca
+%pal nprocs 1 end  
+%maxcore 1000 
+! hf sto-3g TightSCF        
+[Pilgrim_gradientcalc_start]
+! EnGrad
+[Pilgrim_gradientcalc_end]
+[Pilgrim_hessiancalc_start]
+! Freq
+[Pilgrim_hessiancalc_end]
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_meppoint
+#- - - - - - - - - - - - - -#
+
+#-------------------------#
+# HIGH-LEVEL CALCULATIONS #
+#-------------------------#
+
+#- - - - - - - - - - - - - -#
+start_highlevel 2d orca
+%pal nprocs 8 end  
+! RHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF         
+* xyz 0 1
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel 2d_tr orca
+%pal nprocs 8 end  
+! RHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 1
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel h orca
+%pal nprocs 1 end  
+! uhf cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel h2 orca
+%pal nprocs 2 end  
+! RHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 1
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_a orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF      
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_a_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF      
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_b orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF       
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_b_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF       
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_d orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_d_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_ep orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_ep_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_g orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_g_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_m orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel p_m_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_a orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_a_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_b orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_b_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_d orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_d_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_ep orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_ep_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_g orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_g_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_m orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+#- - - - - - - - - - - - - -#
+start_highlevel ts_m_tr orca
+%pal nprocs 8 end  
+! UHF F12-CCSD(T) cc-pVTZ-F12 cc-pVTZ-F12-CABS TightSCF        
+* xyz 0 2
+[Pilgrim_geometry]         
+*
+
+end_highlevel
+#- - - - - - - - - - - - - -#
+
+

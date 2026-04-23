@@ -1,0 +1,36 @@
+
+#-----------------------------------------------#
+# To define a reaction, just use the next
+# syntax:
+#      chemname : chemreac
+# where:
+#     * 'chemname' is the label of the chemical reaction
+#     * 'chemreac' is the chemical reaction
+#
+# The chemical reaction contains reactant(s),
+# transition state and product(s) of the
+# reaction, separated by arrows (-->).
+# If there are more than one reactant/product,
+# use the '+' symbol.
+#
+# Examples of valid lines:
+#     myreac1 : R     --> TS --> P
+#     myreac2 : R1+R2 --> TS --> P
+#     myreac3 : R     --> TS --> P1+P2
+#     myreac4 : R1+R2 --> TS --> P1+P2
+#
+#-----------------------------------------------#
+
+R1  : 2d + h --> ts_a  --> p_a + h2 
+R2  : 2d + h --> ts_b  --> p_b + h2 
+R3  : 2d + h --> ts_g  --> p_g + h2 
+R4  : 2d + h --> ts_d  --> p_d + h2 
+R5  : 2d + h --> ts_ep --> p_ep + h2
+R6  : 2d + h --> ts_m  --> p_m + h2 
+R1_tr  : 2d_tr + h --> ts_a_tr  --> p_a_tr + h2
+R2_tr  : 2d_tr + h --> ts_b_tr  --> p_b_tr + h2
+R3_tr  : 2d_tr + h --> ts_g_tr  --> p_g_tr + h2
+R4_tr  : 2d_tr + h --> ts_d_tr  --> p_d_tr + h2
+R5_tr  : 2d_tr + h --> ts_ep_tr --> p_ep_tr + h2
+R6_tr  : 2d_tr + h --> ts_m_tr  --> p_m_tr + h2
+
